@@ -118,14 +118,14 @@ Git clone is required only once for each repository (at the very first time).
 7. If the result of `git status` shows something like `Your branch is up-to-date`, then that means it was successful. If you cannot get into the folder, or you see any error message, it was not successful somehow. 
 
 ### Making Changes in Your Repo
-Mostly, you will work on your computer. In the cloned folder, you can create files that you will work on. Let's try to create a sample file for exercise. 
+Mostly, you will work on your computer. In the cloned folder, you can create files that you will work on. Let's create a sample file for practice. 
 
-1. You can create a simple text file using your editor app, or in the command line. 
+1. Create a simple text file using your editor app, or in the command line. 
 	- Open a text editor that you usually use (e.g., UltraEdit, Sublime Text, NotePad++, etc.). For Markdown files, you can also use a web-based editor such as [Markdown Editor](https://jbt.github.io/markdown-editor/), and copy the text after you write something down. 
 	- Create a new file.
 	- Write something in it.
 	- Save it in the cloned folder as `[your_name].md`.
-2. Once you create a new file, you just made a change on your local Git repository.
+2. Once you create a new file, you just made a change to your local Git repository.
 3. In the terminal, type:
 
 	```
@@ -135,7 +135,7 @@ Mostly, you will work on your computer. In the cloned folder, you can create fil
 
 ### Adding and Commiting Your Changes (Your PC &rarr; Github, whenever you make changes)
 
-1. First of all, you need to register your changes so your files are controled under the Git system. The first step is to "add" your changes.
+1. First, register your changes so your files are controlled under the Git system. The first step is to "add" your changes.
 Type:
 	
 	```
@@ -147,8 +147,8 @@ Type:
 	```
 	git commit -m "this is a test file by [your_name]"
 	```
-	The message inside the double quotes is your log message so that other people can understand what you did: You need to briefly explain what changes you made.	
-3. Finally, upload your changes to your online repo (in the Github). Type:
+	The message inside the double quotes is your log message so that other people understand what you did: Briefly explain what changes you made.	
+3. Finally, upload your changes to your online repo (in Github). Type:
  
 	```
 	git push origin master
@@ -199,10 +199,10 @@ It is possible to see graphically how your branching has been processed on the w
 Then, it shows how branches were created and merged among each other. 
 
 
-### Exercise: Folking and Contributing to the Original Code Base
-1. Go to this Git repo web page: `https://github.com/myeong/INST377`
-2. Click "Folk"
-3. Go to your folked repo. It should be something like `https://github.com/[your_id]/INST377`
+### Exercise: Forking and Contributing to the Original Code Base
+1. Go to this Git repo web page: `https://github.com/rfollman/INST377`
+2. Click "Fork"
+3. Go to your forked repo. It should be something like `https://github.com/[your_id]/INST377`
 4. Clone it to your PC.
 5. Go to `git/introductions/` folder, and create a Markdown file with your last name. `[your_last_name].md`
 6. Open the file, write down any one sentence in the Markdown file, and save it. 
