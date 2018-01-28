@@ -18,22 +18,22 @@ Rebecca Follman
 
 <a name="why"></a>
 # Why Git? 
-- Git has become a standard tool for collaboration in software development and data analytics worlds. 
-- Many developers and data scientists now contribute to open source software through Git (when an open source project is hosted on a Git-based website).
+- Git has become a standard tool for collaboration in the worlds of software development and data analytics. 
+- Developers and data scientists now contribute to open source software through Git.
 - Non-developers such as project managers also actively use Git to efficiently manage IT projects and collaborate with developers.
 
 ### Examples 
-- Two developers are working on a software project. Developer A made changes in the code and published it to the server. The other developer B didn't know about this. He made his own changes and published it to the server. A's changes have gone since B didn't have A's changes on his laptop.
-	- Git keeps track of every change from each person, so B cannot ignore A's changes if they're using Git for the project. 
+- Two developers are working on a software project. Developer A made changes in the code and published it to the server. Developer B didn't know about this. He made his own changes and published it to the server. A's changes are gone since B didn't have A's changes on his laptop.
+	- Git keeps track of every change from each person, so B cannot ignore A's changes if they use Git for the project. 
 - There is an open source project. Developer A is the organizer of the project. A made a main codebase and recruited other developers who wanted to contribute to the code. 1,000 people provided their own extensions to A, and A had a hard time reviewing all different kinds of codes. 
 	- Git has a mechanism called "fork". This allows other developers freely modify a project. Once a contributor finishes his or her work, it is possible to make a "pull request" to the project organizer so that the organizer can manage various contributions in a systematic way.  
-- Student A was working on a software project. She finished two out of three assignments. Then she modified something to finish the last part. Suddenly, the whole system didn't work and the first two parts were also broken due to the latest change. It was very hard to go back to the state before starting working on the third part.
-	- Similar to the first example, Git keeps track of every code changes whenever a user "commit" his or her changes. It's very easy to go back to a previous state when something is broken.
+- Student A was working on a software project. She finished two out of three assignments. Then she modified something to finish the last part. Suddenly, the whole system didn't work. It was very hard to go back to the initial state before starting working on the third part.
+	- Similar to the first example, Git keeps track of every code change whenever a user "commitS" his or her changes. It's very easy to go back to a previous state when something breaks.
 	- See [an example](https://github.com/myeong/DCIC-Human-Face/commits/master) of a commit history on Github.
 
 <a name="products"></a>	
 # Git Products 
-Git is an open source software, and many online services provide Git-based solutions **for free**! These are well-known products:
+Git is open source software, and many online services provide Git-based solutions **for free**! These are well-known products:
 
 - [Github](http://github.com)
 - [Bitbucket](https://bitbucket.org)
@@ -46,7 +46,7 @@ Also, it's possible to install your own Git system if you have a Linux server. A
 We will use [Github](http://github.com) in this class since it is the most widely used among Git services. Basic functionalities and concepts are similar to other Git services. Github provides several features along with the original Git functionality. These are the major ones:
 
 1. Branching
-	- For a Git repository, it's possible to make other branches so to keep the original codebase (useful when developing a particular feature while not wanting to break the original code).
+	- For a Git repository, it's possible to make branches so as to preserve the original codebase (useful when developing a particular feature while not wanting to break the original code).
 2. Forking
 	- If you're interested in an existing (public) project by other users, you can "fork" the project to your account. This copies the entire project to your own account so you can work freely on it. 
 3. Basic Website
@@ -59,7 +59,7 @@ We will use [Github](http://github.com) in this class since it is the most widel
 	- It's possible to make your repo private (so other people cannot see your private repos). In Github, the private repo service is not free, but there's a student account option. 
 6. Code Review Interface
 	- When a pull request is made (i.e., someone wants to make a contribution to an existing project), the owner of the project can review others' code line-by-line and make comments on each line if necessary. 
-	- Since only lines that are changed are shown to the owner, so it's easy to review others' code. 
+	- Since only lines that are changed are shown to the owner, it's easy to review others' code. 
 7. Issues
 	- It's possible to discuss any issues related to a project like an online forum. This feature faciliates communications between project owners and other contributors and users.
 
